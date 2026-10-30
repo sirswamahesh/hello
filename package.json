@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.2.1"
+  },
+  "name": "level1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
