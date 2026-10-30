@@ -10,6 +10,12 @@ app.get("/", (req, res) => {
     messsage: "Hello from Docker",
   });
 });
+app.get("/health", (req, res) => {
+  res.json({
+    success: true,
+    messsage: "Hello health",
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
